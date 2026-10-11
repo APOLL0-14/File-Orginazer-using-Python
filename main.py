@@ -1,7 +1,7 @@
 import os
 import shutil
 
-directory = os.path.join(os.path.expanduser("~"), "Downloads")
+directory = os.path.join(os.path.expanduser("~"), "Downloads") #You can change what folder to organize by change the "Downloads" name into any folder name.
 
 EXTENSION_MAP = {
     "Images": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"],
